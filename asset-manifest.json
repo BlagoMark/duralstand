@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./BlagoMark.github.io/react-app/static/css/main.556ea09e.css",
+    "main.js": "./BlagoMark.github.io/react-app/static/js/main.9300411f.js",
+    "static/css/250.af33b370.chunk.css": "./BlagoMark.github.io/react-app/static/css/250.af33b370.chunk.css",
+    "static/js/250.13bd7c61.chunk.js": "./BlagoMark.github.io/react-app/static/js/250.13bd7c61.chunk.js",
+    "static/css/622.bf85896d.chunk.css": "./BlagoMark.github.io/react-app/static/css/622.bf85896d.chunk.css",
+    "static/js/622.d47d5627.chunk.js": "./BlagoMark.github.io/react-app/static/js/622.d47d5627.chunk.js",
+    "static/css/582.1ad5ed42.chunk.css": "./BlagoMark.github.io/react-app/static/css/582.1ad5ed42.chunk.css",
+    "static/js/582.ed40b2e8.chunk.js": "./BlagoMark.github.io/react-app/static/js/582.ed40b2e8.chunk.js",
+    "static/css/842.7724232b.chunk.css": "./BlagoMark.github.io/react-app/static/css/842.7724232b.chunk.css",
+    "static/js/842.3f5cce85.chunk.js": "./BlagoMark.github.io/react-app/static/js/842.3f5cce85.chunk.js",
+    "static/js/615.e9feb2da.chunk.js": "./BlagoMark.github.io/react-app/static/js/615.e9feb2da.chunk.js",
+    "static/media/user.png": "./BlagoMark.github.io/react-app/static/media/user.a6143582309785dca610.png",
+    "static/media/loader.svg": "./BlagoMark.github.io/react-app/static/media/loader.c1b0cf773f31bba33b6dbec730d3b23d.svg",
+    "index.html": "./BlagoMark.github.io/react-app/index.html",
+    "main.556ea09e.css.map": "./BlagoMark.github.io/react-app/static/css/main.556ea09e.css.map",
+    "main.9300411f.js.map": "./BlagoMark.github.io/react-app/static/js/main.9300411f.js.map",
+    "250.af33b370.chunk.css.map": "./BlagoMark.github.io/react-app/static/css/250.af33b370.chunk.css.map",
+    "250.13bd7c61.chunk.js.map": "./BlagoMark.github.io/react-app/static/js/250.13bd7c61.chunk.js.map",
+    "622.bf85896d.chunk.css.map": "./BlagoMark.github.io/react-app/static/css/622.bf85896d.chunk.css.map",
+    "622.d47d5627.chunk.js.map": "./BlagoMark.github.io/react-app/static/js/622.d47d5627.chunk.js.map",
+    "582.1ad5ed42.chunk.css.map": "./BlagoMark.github.io/react-app/static/css/582.1ad5ed42.chunk.css.map",
+    "582.ed40b2e8.chunk.js.map": "./BlagoMark.github.io/react-app/static/js/582.ed40b2e8.chunk.js.map",
+    "842.7724232b.chunk.css.map": "./BlagoMark.github.io/react-app/static/css/842.7724232b.chunk.css.map",
+    "842.3f5cce85.chunk.js.map": "./BlagoMark.github.io/react-app/static/js/842.3f5cce85.chunk.js.map",
+    "615.e9feb2da.chunk.js.map": "./BlagoMark.github.io/react-app/static/js/615.e9feb2da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.556ea09e.css",
+    "static/js/main.9300411f.js"
+  ]
+}
