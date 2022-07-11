@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/duralstand/static/css/main.556ea09e.css",
-    "main.js": "/duralstand/static/js/main.a2cdd762.js",
+    "main.js": "/duralstand/static/js/main.c5c7acc9.js",
     "static/css/250.af33b370.chunk.css": "/duralstand/static/css/250.af33b370.chunk.css",
     "static/js/250.13bd7c61.chunk.js": "/duralstand/static/js/250.13bd7c61.chunk.js",
     "static/css/622.bf85896d.chunk.css": "/duralstand/static/css/622.bf85896d.chunk.css",
     "static/js/622.d47d5627.chunk.js": "/duralstand/static/js/622.d47d5627.chunk.js",
     "static/css/582.1ad5ed42.chunk.css": "/duralstand/static/css/582.1ad5ed42.chunk.css",
-    "static/js/582.ed40b2e8.chunk.js": "/duralstand/static/js/582.ed40b2e8.chunk.js",
+    "static/js/582.49689440.chunk.js": "/duralstand/static/js/582.49689440.chunk.js",
     "static/css/842.7724232b.chunk.css": "/duralstand/static/css/842.7724232b.chunk.css",
     "static/js/842.3f5cce85.chunk.js": "/duralstand/static/js/842.3f5cce85.chunk.js",
     "static/js/615.e9feb2da.chunk.js": "/duralstand/static/js/615.e9feb2da.chunk.js",
@@ -15,19 +15,19 @@
     "static/media/loader.svg": "/duralstand/static/media/loader.c1b0cf773f31bba33b6dbec730d3b23d.svg",
     "index.html": "/duralstand/index.html",
     "main.556ea09e.css.map": "/duralstand/static/css/main.556ea09e.css.map",
-    "main.a2cdd762.js.map": "/duralstand/static/js/main.a2cdd762.js.map",
+    "main.c5c7acc9.js.map": "/duralstand/static/js/main.c5c7acc9.js.map",
     "250.af33b370.chunk.css.map": "/duralstand/static/css/250.af33b370.chunk.css.map",
     "250.13bd7c61.chunk.js.map": "/duralstand/static/js/250.13bd7c61.chunk.js.map",
     "622.bf85896d.chunk.css.map": "/duralstand/static/css/622.bf85896d.chunk.css.map",
     "622.d47d5627.chunk.js.map": "/duralstand/static/js/622.d47d5627.chunk.js.map",
     "582.1ad5ed42.chunk.css.map": "/duralstand/static/css/582.1ad5ed42.chunk.css.map",
-    "582.ed40b2e8.chunk.js.map": "/duralstand/static/js/582.ed40b2e8.chunk.js.map",
+    "582.49689440.chunk.js.map": "/duralstand/static/js/582.49689440.chunk.js.map",
     "842.7724232b.chunk.css.map": "/duralstand/static/css/842.7724232b.chunk.css.map",
     "842.3f5cce85.chunk.js.map": "/duralstand/static/js/842.3f5cce85.chunk.js.map",
     "615.e9feb2da.chunk.js.map": "/duralstand/static/js/615.e9feb2da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.556ea09e.css",
-    "static/js/main.a2cdd762.js"
+    "static/js/main.c5c7acc9.js"
   ]
 }
