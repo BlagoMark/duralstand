@@ -1,0 +1,17 @@
+.formControls {
+  position: relative;
+  width: inherit;
+}
+
+.formControls.error input,
+.formControls.error textarea {
+  outline: 2px red solid;
+}
+
+.formControls.error input::placeholder {
+  color: red;
+}
+
+.formSummaryError {
+  color: red;
+}

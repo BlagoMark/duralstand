@@ -1,0 +1,122 @@
+.users {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  padding-bottom: 20px;
+  border-radius: 5px 5px 0 0;
+  overflow: auto;
+  position: relative;
+}
+
+.users h2 {
+  font-size: 22px;
+  color: var(--main-bg-color);
+  margin: 20px 0;
+  margin-left: 20px;
+}
+
+.wrapper {
+  padding: 20px;
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: auto;
+  gap: 15px;
+}
+
+.showMore {
+  bottom: 20px;
+  text-align: center;
+}
+
+.showMore button {
+  background: var(--main-bg-color);
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.showMore button:hover {
+  background: var(--hover-bg-color);
+}
+
+.item {
+  text-decoration: none;
+  color: var(--main-bg-color);
+  min-width: 200px;
+  background: #dcdcdc;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.2s;
+  word-break: break-all;
+  text-align: center;
+}
+
+.item:hover {
+  filter: drop-shadow(0 0 0.5rem #838383);
+  -webkit-filter: drop-shadow(0 0 0.5rem #838383);
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  transition: 0.3s;
+  margin-bottom: 15px;
+  border-radius: 100%;
+  overflow: hidden;
+  border: #fff 6px solid;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item:hover .avatar {
+  transform: scale(1.05) translateY(-20px);
+  filter: drop-shadow(0 0 0.75rem #737373);
+  -webkit-filter: drop-shadow(0 0 0.75rem #737373);
+}
+
+.item:hover .avatar img {
+  transform: scale(1.1);
+}
+
+.avatar img {
+  height: 100%;
+  width: 100%;
+  transform: scale(1.02);
+  object-fit: fill;
+  transition: 0.5s;
+}
+
+.name {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.name:hover {
+  text-decoration: underline;
+}
+
+.city {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.unfollow {
+  background: transparent;
+  border-radius: 5px;
+  color: #848484;
+  border: 1px solid #848484;
+}
+
+.unfollow:hover {
+  background: #848484;
+  color: #fff;
+}

@@ -1,0 +1,51 @@
+.header {
+  grid-area: header;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--main-bg-color);
+  height: 60px;
+  width: 100%;
+  position: relative;
+  border-radius: 0 0 5px 5px;
+}
+.logo {
+  font-size: 36px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Lobster";
+}
+.rightPanel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login,
+.login a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.login .navlink {
+  border: #fff solid 2px;
+}
+
+.login button {
+  border: #fff solid 2px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.settings {
+  font-size: 48px;
+  line-height: 100%;
+  text-decoration: none;
+  color: #fff;
+  transform: translateY(-2px);
+  margin-right: 15px;
+}

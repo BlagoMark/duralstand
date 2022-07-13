@@ -1,0 +1,11 @@
+.posts {
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.postsItems {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+}

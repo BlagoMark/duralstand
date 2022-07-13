@@ -1,0 +1,9 @@
+.settings {
+  background: #fff;
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+  padding: 20px;
+}

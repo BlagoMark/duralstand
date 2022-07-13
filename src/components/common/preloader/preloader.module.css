@@ -1,0 +1,13 @@
+.preloader {
+  width: 100%;
+}
+
+.preloaderWrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  z-index: 1000;
+  width: 100px;
+}

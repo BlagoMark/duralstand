@@ -1,0 +1,39 @@
+.status {
+  margin-bottom: 20px;
+  font-weight: 700;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  width: 100%;
+}
+
+.editModeTrue,
+.editModeFalse {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editModeTrue input {
+  width: 100%;
+  max-width: 500px;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 5px;
+  background: #d5d5d5;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.editModeFalse span {
+  margin-right: 20px;
+  color: var(--hover-bg-color);
+}
+
+.button {
+  min-width: 30px;
+  height: 30px;
+}

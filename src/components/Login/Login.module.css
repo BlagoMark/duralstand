@@ -1,0 +1,107 @@
+.login {
+  background: #fff;
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login .welcome {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.login .welcome h1 {
+  margin-bottom: 10px;
+  font-size: 48px;
+  font-family: "Lobster";
+  color: var(--main-bg-color);
+}
+
+.login .welcome h3 {
+  color: var(--active-bg-color);
+}
+
+.login .formWrapper {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  border: solid 1px #d5d5d5;
+  border-radius: 20px;
+}
+
+.login .formWrapper label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.login .formWrapper input {
+  margin: 15px 0;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  background: #d5d5d5;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.login .formWrapper a {
+  color: var(--main-bg-color);
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.login .formWrapper a:hover {
+  color: var(--active-bg-color);
+}
+
+.login .rememberForgot {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.login .rememberForgot a {
+  display: flex;
+  align-items: center;
+}
+
+.login .formWrapper .checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.login .formWrapper .checkbox input {
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.login .formWrapper .buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.login .formWrapper .buttonWrapper .button {
+  font-size: 16px;
+  height: 40px;
+  width: 150px;
+  margin-top: 15px;
+}
+.login .registration {
+  margin-top: 20px;
+}
+
+.error {
+  margin-bottom: 10px;
+}

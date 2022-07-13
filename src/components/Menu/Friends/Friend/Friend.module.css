@@ -1,0 +1,44 @@
+.friend {
+  text-decoration: none;
+  width: calc(100% + 40px);
+  margin-left: -20px;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  background: transparent;
+  transition: 0.3s;
+}
+
+.friend:hover {
+  background: var(--hover-bg-color);
+}
+
+.friendAvatar {
+  width: 40px;
+  height: 40px;
+  background: #000000;
+  border-radius: 100%;
+  margin-right: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.friendAvatar img {
+  height: 100%;
+  /* width: 100%; */
+  object-fit: cover;
+  opacity: 0.6;
+  filter: invert(100);
+}
+
+.friendName {
+  color: #fff;
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.1;
+  font-weight: 700;
+  width: calc(100% - 80px);
+  overflow: hidden;
+}

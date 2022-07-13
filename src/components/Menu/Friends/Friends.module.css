@@ -1,0 +1,26 @@
+.friends {
+  margin-top: 40px;
+}
+
+.friends h3 {
+  color: #fff;
+  font-weight: 400;
+}
+
+.friendsWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+.allFriends {
+  padding: 5px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--active-bg-color);
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 14px;
+  text-decoration: none;
+}

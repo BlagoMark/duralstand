@@ -1,0 +1,59 @@
+.menu {
+  padding: 20px;
+  grid-area: menu;
+  background: var(--main-bg-color);
+  font-size: 20px;
+  border-radius: 5px 5px 0 0;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.item a {
+  border-bottom: rgb(97, 153, 203) solid 1px;
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  transition: 0.3s;
+  background: var(--main-bg-color);
+}
+
+.item a:hover {
+  background: var(--hover-bg-color);
+}
+
+.item a.active {
+  background: var(--active-bg-color);
+}
+
+.friends {
+  margin-top: 40px;
+}
+
+.friends h3 {
+  color: #fff;
+  font-weight: 400;
+}
+
+.friendsWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+.allFriends {
+  padding: 5px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--active-bg-color);
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 14px;
+  text-decoration: none;
+}

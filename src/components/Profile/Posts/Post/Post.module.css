@@ -1,0 +1,66 @@
+.item {
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+  margin: 24px 0;
+  position: relative;
+  width: fit-content;
+}
+
+.item__img {
+  width: 40px;
+  height: 40px;
+  background: rgb(223, 187, 66);
+  border-radius: 100%;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.item__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item__text {
+  background: rgb(240, 240, 240);
+  border-radius: 15px;
+  min-width: 200px;
+  max-width: 500px;
+  padding: 30px 20px;
+  position: relative;
+  font-size: 18px;
+  line-height: 1.2;
+  line-break: anywhere;
+  white-space: pre-wrap;
+}
+
+.like {
+  position: absolute;
+  right: 10px;
+  bottom: -12px;
+  padding: 3px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  color: rgb(226, 89, 89);
+  cursor: pointer;
+  border: 3px solid rgb(240, 240, 240);
+}
+
+.like span {
+  color: rgb(142, 142, 142);
+}
+
+.name {
+  background: rgb(240, 240, 240);
+  border: 3px solid rgb(240, 240, 240);
+  border-radius: 10px;
+  position: absolute;
+  padding: 3px 3px 10px 3px;
+  top: -10px;
+  font-size: 14px;
+  font-weight: 700;
+  left: 0;
+  color: var(--main-bg-color);
+  text-decoration: none;
+}

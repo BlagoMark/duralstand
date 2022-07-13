@@ -1,0 +1,115 @@
+.bio {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.avatar {
+  max-width: 150px;
+  height: 150px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1 1 auto;
+  position: relative;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bio_content {
+  flex: 1 1 auto;
+}
+
+.status {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.name {
+  color: var(--main-bg-color);
+  font-size: 38px;
+  margin-bottom: 0;
+  font-family: Lobster;
+}
+
+.bio p {
+  margin: 5px 0;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  flex: 1 auto;
+  align-items: center;
+}
+
+.subscribe button {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.selectPhoto {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 102%;
+  height: 102%;
+}
+
+.selectPhoto label:hover {
+  background: #00000050;
+  opacity: 100%;
+}
+
+.selectPhoto label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00000000;
+  cursor: pointer;
+  opacity: 0;
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  transition: all 0.3s;
+  font-size: 36px;
+}
+
+.selectPhoto input {
+  display: none;
+}
+
+.error {
+  position: absolute;
+  bottom: -10px;
+  color: red;
+  font-weight: 500;
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 100%;
+  }
+  90% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0;
+  }
+}
