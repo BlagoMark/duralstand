@@ -1,9 +1,9 @@
 import { connect } from "react-redux";
 import { compose } from "redux";
 import { withAuthRedirect } from "../Hoc/AuthRedirect";
-import Dialogs from "./Dialogs";
 import DialogsItem from "./DialogsItem/DialogsItem";
 import Message from "./Messages/Message";
+import Dialogs from "./Dialogs";
 
 let mapStateToProps = (state) => {
   let dialogsElements = state.dialogsPage.dialogs.map((dialog) => {

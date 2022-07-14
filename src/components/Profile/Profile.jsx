@@ -1,8 +1,8 @@
 import React from "react";
 import BioContainer from "./Bio/Bio";
 import PostsContainer from "./Posts/PostsContainer";
-import classes from "./Profile.module.css";
 import Wallpaper from "./Wallpaper/Wallpaper";
+import classes from "./Profile.module.css";
 
 const Profile = (props) => {
   return (

@@ -1,18 +1,18 @@
 import React from "react";
-import "./App.css";
 import { Routes, Route, HashRouter } from "react-router-dom";
-import News from "./components/News/News";
-import Music from "./components/Music/Music";
-import HeaderContainer from "./components/Header/HeaderContainer";
-import MenuContainer from "./components/Menu/MenuContainer";
 import { compose } from "redux";
 import { connect, Provider } from "react-redux";
 import { withRouter } from "./components/Hoc/withRouter";
 import { initialize } from "./redux/appReducer";
-import Preloader from "./components/common/preloader/preloader";
-import store from "./redux/storeRedux";
 import { withSuspense } from "./components/Hoc/withSuspense";
-import { Settings } from "./components/Settings/Settings";
+import store from "./redux/storeRedux";
+import News from "./components/News/News";
+import Music from "./components/Music/Music";
+import HeaderContainer from "./components/Header/HeaderContainer";
+import Settings from "./components/Settings/Settings";
+import MenuContainer from "./components/Menu/MenuContainer";
+import Preloader from "./components/common/preloader/preloader";
+import "./App.css";
 
 const DialogsContainer = React.lazy(() =>
   import("./components/Dialogs/DialogsContainer")

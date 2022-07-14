@@ -1,9 +1,9 @@
 import React from "react";
 import { connect } from "react-redux";
 import { compose } from "redux";
+import { reset } from "redux-form";
 import { loginTC } from "../../redux/authReducer";
 import Login from "./Login";
-import { reset } from "redux-form";
 
 class LoginContainer extends React.Component {
   render() {

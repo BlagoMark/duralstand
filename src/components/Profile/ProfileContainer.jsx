@@ -1,15 +1,13 @@
-import Profile from "./Profile";
 import React from "react";
 import { connect } from "react-redux";
+import { withRouter } from "../Hoc/withRouter";
+import { compose } from "redux";
 import {
   getUserProfile,
   getUserStatus,
   updateStatus,
   savePhoto,
 } from "../../redux/profileReducer";
-import Preloader from "../common/preloader/preloader";
-import { withRouter } from "../Hoc/withRouter";
-import { compose } from "redux";
 import {
   getAuthorizedUserId,
   getIsAuth,
@@ -17,6 +15,8 @@ import {
   getStatus,
   getWallpaper,
 } from "../../redux/profileSelectors";
+import Preloader from "../common/preloader/preloader";
+import Profile from "./Profile";
 
 class ProfileContainer extends React.Component {
   refreshProfile() {
